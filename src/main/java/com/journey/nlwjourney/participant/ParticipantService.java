@@ -59,10 +59,4 @@ public class ParticipantService {
                 .toList();
     }
 
-    public Participant confirmParticipant(UUID id) throws ParticipantNotFoundException {
-
-
-        throw new ParticipantNotFoundException("", id);
-
-    }
 }
